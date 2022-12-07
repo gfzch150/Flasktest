@@ -1,7 +1,6 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Wed Dec  7 21:03:36 2022
+from flask import Flask
+app = Flask(__name__)
 
-@author: J
-"""
-
+@app.route('/')
+def hello_world():
+    return 'Hello, World!'
