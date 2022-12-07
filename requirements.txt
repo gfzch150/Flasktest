@@ -1,2 +1,2 @@
-streamlit==1.15.2
-Pillow==9.3.0
+Flask
+Gunicorn
